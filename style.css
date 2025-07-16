@@ -6,8 +6,8 @@
   --primary-dark: #2b4e76;
   --text-light: #f8f8f8;
   --text-muted: #cfd2da;
-  --bg-dark: rgba(0, 0, 0, 0.85);
-  --bg-darker: rgba(0, 0, 0, 0.9);
+  --bg-dark: rgba(0, 0, 0, 0.3);
+  --bg-darker: rgba(0, 0, 0, 0.6);
   --border-radius: 8px;
 }
 /* === MANROPE FONT FIX === */
