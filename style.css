@@ -174,17 +174,48 @@ a:hover {
 /**
  * Social Links
  */
+/* Fix Connect page button spacing */
 .social-links {
   display: flex;
-  gap: 5rem;
-  margin-top: 3rem;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 1rem; /* Consistent spacing between buttons */
+  justify-content: center; /* Center buttons */
+  margin: 2rem 0;
+  max-width: 100%; /* Prevent overflow */
 }
 
 .social-links a {
   display: inline-block;
-  padding: 1rem 1rem;
+  padding: 0.8rem 1.5rem;
   background: rgba(255,255,255,0.1);
-  border-radius: 3px;
+  border-radius: 4px;
+  color: var(--text-light);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* Prevent text wrapping */
+  flex: 1; /* Equal width */
+  min-width: fit-content; /* Don't shrink below content */
+  text-align: center;
+  margin: 0; /* Remove any default margins */
+}
+
+.social-links a:hover {
+  background: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .social-links {
+    gap: 0.75rem;
+    padding: 0 1rem; /* Add side padding */
+  }
+  
+  .social-links a {
+    padding: 0.7rem 1rem;
+    font-size: 1.4rem;
+    flex: 0 0 calc(50% - 0.5rem); /* 2 buttons per row */
+  }
 }
 
 /**
