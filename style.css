@@ -2,8 +2,8 @@
  * CSS Variables (Color Scheme)
  */
 :root {
-  --primary: #FF8A65;
-  --primary-dark: #EF6D3D;
+  --primary: #74c8ee;
+  --primary-dark: #2b4e76;
   --text-light: #f8f8f8;
   --text-muted: #cfd2da;
   --bg-dark: rgba(0, 0, 0, 0.85);
@@ -30,8 +30,8 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
-  line-height: 1.6;
+  font-size: 1.8rem;
+  line-height: 1.8;
   font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
   color: var(--text-light);
@@ -149,7 +149,7 @@ a:hover {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--primary);
-  color: white;
+  color: rgba(255, 255, 255, 0.806);
   border-radius: 4px;
   margin-right: 1rem;
   transition: all 0.2s ease;
@@ -170,43 +170,17 @@ a:hover {
 }
 
 /**
- * Contact Form
- */
-#contact-form input,
-#contact-form textarea {
-  width: 100%;
-  padding: 1.2rem;
-  margin-bottom: 1.5rem;
-  background: rgba(255,255,255,0.1);
-  border: 1px solid #444;
-  color: white;
-  border-radius: 4px;
-  font-family: 'Manrope', sans-serif;
-}
-
-#contact-form textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-#contact-form button {
-  width: 100%;
-  padding: 1.2rem;
-  font-size: 1.6rem;
-}
-
-/**
  * Social Links
  */
 .social-links {
   display: flex;
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 5rem;
+  margin-top: 3rem;
 }
 
 .social-links a {
   display: inline-block;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 2rem;
   background: rgba(255,255,255,0.1);
   border-radius: 4px;
 }
@@ -216,10 +190,10 @@ a:hover {
  */
 footer {
   text-align: center;
-  padding: 2rem;
+  padding: 5rem;
   font-size: 1.4rem;
   color: var(--text-muted);
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 /**
