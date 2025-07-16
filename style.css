@@ -6,8 +6,8 @@
   --primary-dark: #2b4e76;
   --text-light: #f8f8f8;
   --text-muted: #cfd2da;
-  --bg-dark: rgba(0, 0, 0, 0.3);
-  --bg-darker: rgba(0, 0, 0, 0.6);
+  --bg-dark: rgba(0, 0, 0, 0.5);
+  --bg-darker: rgba(0, 0, 0, 0.7);
   --border-radius: 8px;
 }
 /* === MANROPE FONT FIX === */
@@ -149,10 +149,10 @@ a:hover {
 
 .button {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 0.5rem 0.5rem;
   background: var(--primary);
   color: rgba(255, 255, 255, 0.806);
-  border-radius: 4px;
+  border-radius: 1px;
   margin-right: 1rem;
   transition: all 0.2s ease;
   font-weight: 500;
