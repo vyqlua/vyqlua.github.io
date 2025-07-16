@@ -191,11 +191,28 @@ a:hover {
  * Footer
  */
 footer {
-  text-align: center;
-  padding: 3rem;
-  font-size: 1.4rem;
-  color: var(--text-muted);
-  margin-top: 5rem;
+  text-align: center;       /* Horizontal centering */
+  padding: 2rem 1rem;       /* Responsive padding */
+  margin-top: 3rem;         /* Space above footer */
+  width: 100%;             /* Full width */
+  box-sizing: border-box;  /* Include padding in width */
+}
+
+footer p {
+  margin: 0 auto;          /* Center paragraph block */
+  max-width: 800px;        /* Match your content width */
+  font-size: 1.4rem;       /* Adjust as needed */
+  color: var(--text-muted); /* Use your color variable */
+}
+
+footer a {
+  color: var(--primary);   /* Style email link */
+  text-decoration: none;   /* Remove underline */
+  transition: color 0.2s;  /* Smooth hover effect */
+}
+
+footer a:hover {
+  color: var(--text-light); /* Hover state */
 }
 
 /**
@@ -219,6 +236,13 @@ footer {
   #header img {
     width: 100px;
     height: 100px;
+  }
+
+  footer {
+    padding: 1.5rem 0.5rem;
+  }
+  footer p {
+    font-size: 1.2rem; /* Slightly smaller text */
   }
 }
 
