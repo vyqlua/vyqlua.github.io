@@ -153,7 +153,7 @@ a:hover {
   background: var(--primary);
   color: rgba(255, 255, 255, 0.806);
   border-radius: 1px;
-  margin-right: 1rem;
+  margin: 0 auto;  
   transition: all 0.2s ease;
   font-weight: 500;
   border: none;
@@ -162,12 +162,12 @@ a:hover {
 
 .button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 0.5px 0.5px rgba(0,0,0,0.2);
 }
 
 .button.outline {
   background: transparent;
-  border: 1px solid var(--primary);
+  border: 0.5px solid var(--primary);
   color: var(--primary);
 }
 
