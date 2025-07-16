@@ -10,7 +10,16 @@
   --bg-darker: rgba(0, 0, 0, 0.9);
   --border-radius: 8px;
 }
+/* === MANROPE FONT FIX === */
+body, h1, h2, h3, h4, h5, h6, 
+#header h1, .tagline, .main-menu a {
+  font-family: 'Manrope', -apple-system, sans-serif !important;
+}
 
+h1 { font-weight: 800; }
+h2 { font-weight: 700; }
+#header h1 { font-weight: 700; }
+.tagline { font-weight: 400; }
 /**
  * Base Reset & Typography
  */
